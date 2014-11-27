@@ -1,0 +1,27 @@
+[
+  {
+    "repository": "MrApocalypse/proprietary_vendor_asus",
+    "target_path": "vendor/asus",
+    "branch":      "lp"
+  },
+  {
+    "repository": "MrApocalypse/proprietary_vendor_broadcom",
+    "target_path": "vendor/broadcom",
+    "branch":      "lp"
+  },
+  {
+    "repository": "MrApocalypse/proprietary_vendor_qcom",
+    "target_path": "vendor/qcom",
+    "branch":      "lp"
+  },
+  {
+    "repository": "MrApocalypse/kernel_google_msm",
+    "target_path": "kernel/google/msm",
+    "branch":      "lp"
+  },
+  {
+    "repository": "MrApocalypse/device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch": "lp"
+  }
+]
