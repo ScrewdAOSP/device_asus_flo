@@ -15,8 +15,8 @@
     "branch":      "lp"
   },
   {
-    "repository": "MrApocalypse/kernel_google_msm",
-    "target_path": "kernel/google/msm",
+    "repository": "MrApocalypse/kernel_asus_flo",
+    "target_path": "kernel/asus/flo",
     "branch":      "lp"
   },
   {

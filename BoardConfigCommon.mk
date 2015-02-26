@@ -34,8 +34,10 @@ BOARD_KERNEL_CMDLINE += vmalloc=340M
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 
 # Try to build the kernel
-TARGET_KERNEL_SOURCE := kernel/google/msm
-TARGET_KERNEL_CONFIG := screwd_flo_defconfig
+TARGET_KERNEL_SOURCE := kernel/asus/flo
+TARGET_KERNEL_CONFIG := flo_defconfig
+TARGET_VARIANT_CONFIG := flo_defconfig
+TARGET_SELINUX_CONFIG := flo_defconfig
 
 #Screw it up!
 SCREWD:= true
