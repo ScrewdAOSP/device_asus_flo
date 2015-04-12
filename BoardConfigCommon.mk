@@ -38,6 +38,7 @@ TARGET_KERNEL_SOURCE := kernel/asus/flo
 TARGET_KERNEL_CONFIG := flo_defconfig
 TARGET_VARIANT_CONFIG := flo_defconfig
 TARGET_SELINUX_CONFIG := flo_defconfig
+TARGET_GCC_VERSION_ARM := 4.9
 
 #Screw it up!
 SCREWD:= true
