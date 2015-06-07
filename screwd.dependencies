@@ -2,11 +2,11 @@
   {
     "repository": "MrApocalypse/proprietary_vendor_asus",
     "target_path": "vendor/asus",
-    "branch":      "lp"
+    "branch":      "lp-mr1"
   },
   {
     "repository": "MrApocalypse/kernel_asus_flo",
     "target_path": "kernel/asus/flo",
-    "branch":      "lp"
+    "branch":      "lp-mr1"
   }
 ]
