@@ -302,6 +302,11 @@ PRODUCT_PACKAGES += \
     NfcNci \
     Tag
 
+# apns.conf and old-apns.conf
+PRODUCT_COPY_FILES += \
+    device/asus/flo/apns-conf.xml:system/etc/apns-conf.xml \
+    device/asus/flo/old-apns-conf.xml:system/etc/old-apns-conf.xml
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
     frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml \
