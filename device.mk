@@ -27,12 +27,7 @@ PRODUCT_COPY_FILES := \
     device/asus/flo/init.flo.rc:root/init.flo.rc
 
 PRODUCT_PACKAGES += \
-    camera.flo \
-    SnapdragonCamera
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.camera.HAL3.enabled=1 \
-    persist.camera.cpp.duplication=false
+    camera.flo
 
 # NFC
 PRODUCT_PACKAGES += \
