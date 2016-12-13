@@ -2,11 +2,11 @@
   {
     "repository": "ScrewdAOSP/proprietary_vendor_asus",
     "target_path": "vendor/asus",
-    "branch":      "m"
+    "branch":      "n7x"
   },
   {
     "repository": "ScrewdAOSP/kernel_asus_flo",
     "target_path": "kernel/asus/flo",
-    "branch":      "m"
+    "branch":      "n7x"
   }
 ]
